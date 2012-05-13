@@ -12,7 +12,7 @@ class YouDaoFanyi
   API_key = "1274584216"
   TRANSLATE_URL = BASE_URL+"&keyfrom=#{API_keyfrom}&key=#{API_key}"
   
-  def translate(q)
+  def self.translate(q)
     q.gsub!(/[&]/, ' '
     url = TRANSLATE_URL + "&q=#{URI.escape(q) }"
     xml_data = Net::HTTP.get_response(URI.parse(url)).body

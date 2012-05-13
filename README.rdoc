@@ -1,12 +1,22 @@
-= youdao_fanyi
+# youdao_fanyi － A gem for Youdao Translate Api
 
+## Install:
+	gem install youdao_fanyi
+
+## Usage:
+require 'youdao_fanyi'
+YouDaoFanyi.translate("我爱你")
+=>  I love you
+
+## Ref:
 
 有道翻译数据接口
 http://fanyi.youdao.com/openapi?path=data-mode
 
-示例
+示例:
 http://fanyi.youdao.com/openapi.do?keyfrom=ice-blog-home&key=1274584216&type=data&doctype=xml&version=1.1&q=我爱你
-```
+
+
 <youdao-fanyi>
 <errorCode>0</errorCode>
 <query>
@@ -18,9 +28,9 @@ http://fanyi.youdao.com/openapi.do?keyfrom=ice-blog-home&key=1274584216&type=dat
 <![CDATA[ I love you ]]>
 </paragraph>
 </translation>
-```
 
-== Contributing to youdao_fanyi
+
+## Contributing to youdao_fanyi
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
@@ -30,7 +40,7 @@ http://fanyi.youdao.com/openapi.do?keyfrom=ice-blog-home&key=1274584216&type=dat
 * Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
 * Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
-== Copyright
+## Copyright
 
 Copyright (c) 2012 Iceskysl. See LICENSE.txt for
 further details.
