@@ -26,7 +26,8 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/youdao_fanyi.rb",
     "test/helper.rb",
-    "test/test_youdao_fanyi.rb"
+    "test/test_youdao_fanyi.rb",
+    "youdao_fanyi.gemspec"
   ]
   s.homepage = "http://github.com/iceskysl/youdao_fanyi"
   s.licenses = ["MIT"]
