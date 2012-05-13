@@ -1,6 +1,24 @@
 = youdao_fanyi
 
-Description goes here.
+
+有道翻译数据接口
+http://fanyi.youdao.com/openapi?path=data-mode
+
+示例
+http://fanyi.youdao.com/openapi.do?keyfrom=ice-blog-home&key=1274584216&type=data&doctype=xml&version=1.1&q=我爱你
+```
+<youdao-fanyi>
+<errorCode>0</errorCode>
+<query>
+<![CDATA[ 我爱你 ]]>
+</query>
+<!-- 有道翻译 -->
+<translation>
+<paragraph>
+<![CDATA[ I love you ]]>
+</paragraph>
+</translation>
+```
 
 == Contributing to youdao_fanyi
  
